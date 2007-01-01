@@ -1,4 +1,4 @@
-#include "libGPIO.h"
+#include "../Lib/libGPIO.h"
 #include <stdio.h>
 #include <stdlib.h>
 
