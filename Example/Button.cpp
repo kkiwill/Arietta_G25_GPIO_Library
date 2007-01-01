@@ -9,7 +9,6 @@ int main()
     led.pinMode(OUTPUT);
     while(1)
     {
-	//Delay(10);
 	led.digitalWrite(readButton());
     }
 
