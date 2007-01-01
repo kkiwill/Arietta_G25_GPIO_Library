@@ -21,9 +21,9 @@ PIN_STATE_t;
 class GPIO
 {
     public:
-	GPIO();
-	GPIO(int pin);
-	GPIO(std::string pin);
+    GPIO();
+    GPIO(int pin);
+    GPIO(std::string pin);
     void digitalWrite(PIN_STATE_t value);
     void pinMode(DHT_IOMODE_t iomode);
     bool Init();
@@ -32,7 +32,7 @@ class GPIO
 	
     private:
     uint8_t iPin;
-	std::string sPin;
+    std::string sPin;
 
     void sysfs_filename(char *filename, int len, const char *function);
 };

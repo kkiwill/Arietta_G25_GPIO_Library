@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "GPIO_Class.h"
+#include "libGPIO.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
